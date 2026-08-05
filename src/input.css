@@ -1,1 +1,29 @@
 @import "tailwindcss";
+body{
+    margin:0px;
+}
+h1{
+    text-align: center;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(17, 233, 237);
+    padding: 5px;
+    margin: 0px; 
+    overflow: hidden;
+}
+.navbar a{  
+    color: white;
+    text-decoration: none;
+    padding: 15px; 
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:aqua;
+   
+}
+.navbar li{
+    float:left;
+}
