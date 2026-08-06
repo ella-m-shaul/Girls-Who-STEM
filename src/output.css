@@ -12,6 +12,8 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
+    --text-9xl: 8rem;
+    --text-9xl--line-height: 1;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -165,16 +167,18 @@
   }
 }
 @layer utilities {
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .block {
+    display: block;
+  }
+  .w-\[400px\] {
+    width: 400px;
   }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
 }
 body {
@@ -185,7 +189,7 @@ h1 {
 }
 .navbar ul {
   list-style-type: none;
-  background-color: rgb(17, 233, 237);
+  background-color: rgb(23, 210, 227);
   padding: 5px;
   margin: 0px;
   overflow: hidden;
@@ -198,8 +202,13 @@ h1 {
   text-align: center;
 }
 .navbar a:hover {
-  background-color: aqua;
+  background-color: rgb(55, 242, 242);
 }
 .navbar li {
   float: left;
+}
+.logo.png {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
 }

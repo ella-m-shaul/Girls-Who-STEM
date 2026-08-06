@@ -1,29 +1,41 @@
 @import "tailwindcss";
-body{
-    margin:0px;
+
+body {
+    margin: 0px;
 }
-h1{
+
+h1 {
     text-align: center;
 
 }
-.navbar ul{
+
+.navbar ul {
     list-style-type: none;
-    background-color:rgb(17, 233, 237);
+    background-color: rgb(23, 210, 227);
     padding: 5px;
-    margin: 0px; 
+    margin: 0px;
     overflow: hidden;
 }
-.navbar a{  
+
+.navbar a {
     color: white;
     text-decoration: none;
-    padding: 15px; 
+    padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
-    background-color:aqua;
-   
+
+.navbar a:hover {
+    background-color: rgb(55, 242, 242);
+
 }
-.navbar li{
-    float:left;
+
+.navbar li {
+    float: left;
+}
+
+.logo.png {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
 }
