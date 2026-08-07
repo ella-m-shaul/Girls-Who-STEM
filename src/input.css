@@ -29,7 +29,7 @@ h1 {
   
     transition: all 0.2s ease-in-out;
     border-radius: 8px;
-}
+} 
 
 .navbar a:hover {
     background-color: rgb(145, 232, 240);
